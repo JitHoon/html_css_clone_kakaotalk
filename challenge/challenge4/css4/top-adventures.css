@@ -1,0 +1,33 @@
+.top-adventures {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .top-adventures__title {
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  
+  .top-adventures__contents{
+    height: 170px;
+    width: 115%;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+  }
+  
+  .top-adventures__photo {
+    height: 120px;
+    width: 80px;
+  
+    border-radius: 5px;
+  }
+  
+  .top-adventures__stars {
+    color: var(--yellow);
+    font-size: 9px;  
+  }

@@ -1,0 +1,124 @@
+.book-of-day{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .book-of-day__title{
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  
+  .book-of-day__contents{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .book-of-day__photo{
+    height: 180px;
+    width: 120px;
+  
+    border-radius: 10px;
+  }
+  
+  .book-of-day__scripts{
+    height: 180px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+  
+    position: relative;
+  }
+  
+  .book-of-day__scripts > h1 {
+    font-size: 20px;
+  }
+  
+  .book-of-day__scripts > h2{
+    position: absolute;
+    top: 25px;
+    color: var(--gray);
+  }
+  
+  .book-of-day__stars{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content:flex-start;
+  
+    position: absolute;
+    top: 55px;
+    
+  }
+  
+  .book-of-day__stars > i{
+    margin: 0px 2px;
+    font-size: 13px;
+    color: var(--yellow);
+  }
+  
+  .book-of-day__tags{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+    position: absolute;
+    top: 95px;
+  
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .book-of-day__tags > h1{
+    width: 85px;
+    padding: 7px 0px;
+  
+    font-display:initial;
+    border-radius: 3px;
+    background-color: var(--gray);
+  }
+  
+  .book-of-day__tags > h2{
+    width: 85px;
+    padding: 7px 0px;
+    margin-left: 10px;
+  
+    border-radius: 3px;
+    background-color: var(--gray);
+  }
+  
+  .book-of-day__bookmark{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .book-of-day__mark{
+    padding: 10px 13px;
+  
+    text-align: center;
+    font-size: 13px;
+    border-radius: 50%;
+    color: black;
+    background-color: var(--yellow);
+  }
+  
+  .book-of-day__book{
+    padding: 12px 30px;
+  
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+  
+  /*
+  .book-of-day__bookmark{}
+  */
