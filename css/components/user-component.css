@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .user-component,
@@ -51,4 +52,15 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__icon{
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: bolder;
+  text-align: center;
+  color: tomato;
+  border: 1px solid tomato;
+  margin-left: 3px;
 }
